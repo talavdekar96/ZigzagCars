@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Zigzag Cars</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="facebook_app_id">248598302895922</string>
+    <string name="fb_login_protocol_scheme">fb248598302895922</string>
+    <string name="places_api_key">AIzaSyBIW4CxYUdCZ9MBSBVg7RBOPviGKTKt2kQ</string>
+    <string name="title_activity_cmapactivity">cmapactivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2474579414",
+    "firebase_url": "https://zigzag-cars-a4873.firebaseio.com",
+    "project_id": "zigzag-cars-a4873",
+    "storage_bucket": "zigzag-cars-a4873.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2474579414:android:23eddf62fb584899314077",
+        "android_client_info": {
+          "package_name": "com.example.zigzagcars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2474579414-vvgsl8f81uin4eovmd55cn4rglo2o59e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zigzagcars",
+            "certificate_hash": "6ac59df935de49951c63fbeb80d638836ac9b2d4"
+          }
+        },
+        {
+          "client_id": "2474579414-s2oec5ifgm6v6fceobm99oli8i5lsa0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIW4CxYUdCZ9MBSBVg7RBOPviGKTKt2kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2474579414-s2oec5ifgm6v6fceobm99oli8i5lsa0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

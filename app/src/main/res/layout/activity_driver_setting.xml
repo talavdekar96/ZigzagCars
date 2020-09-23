@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebg"
+    tools:context=".DriverSettingActivity">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_add_user" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:hint="  NAME" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:hint=" PHONE NUMBER"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/cars"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:hint="  CAR NUMBER" />
+
+        <EditText
+            android:id="@+id/license"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:hint="  LICENCE NUMBER" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="10sp"
+            android:background="#ffffff">
+
+            <RadioButton
+                android:id="@+id/X"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="5dp"
+                android:button="@drawable/mini"
+                android:background="@drawable/radiobutton_drawable">
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/Y"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radiobutton_drawable"
+                android:button="@drawable/sedan_car_model">
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/Z"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radiobutton_drawable"
+                android:button="@drawable/six_seater">
+            </RadioButton>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFEA00"
+            android:text="CONFIRM" />
+
+        <Button
+            android:id="@+id/Back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFEA00"
+            android:text="BACK" />
+
+    </LinearLayout>
+
+</RelativeLayout>
