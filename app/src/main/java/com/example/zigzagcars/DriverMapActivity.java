@@ -324,7 +324,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
 
 
         Routing routing = new Routing.Builder()
-                .key("AIzaSyBIW4CxYUdCZ9MBSBVg7RBOPviGKTKt2kQ")
+                .key("Your Api key")
                 .travelMode(AbstractRouting.TravelMode.DRIVING)
                 .withListener( this)
                 .alternativeRoutes(false)
