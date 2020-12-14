@@ -236,7 +236,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
 
 /* Google Places API Integration */
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyBIW4CxYUdCZ9MBSBVg7RBOPviGKTKt2kQ");
+            Places.initialize(getApplicationContext(), " Your Api key");
         }
         PlacesClient placesClient = Places.createClient(this);
 
