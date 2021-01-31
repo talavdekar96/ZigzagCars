@@ -13,4 +13,9 @@ Made in native Android with the help of Java and Firebase.
 2. Now comes the login screen. Select your login method, if you are a new user select new use and then follow the steps.
 
 3. Here you will have different screens according to your selection as a driver or a customer. If customer is selected you will get booking screen and if 
-      driver is selected you will get a navigation screen.
+anddriver is selected you will get a navigation screen.
+
+4. For both the driver and the customer you will get a screen with a map, three buttons at the top (Logout, History, Profile). If you have selected customer 
+      you will have a button to "call a ride" which can be pressed to call a driver. Above that button you will have a selection of vehicles which you can 
+      select, make sure to select your preffered vehicle type (Default is a small hatchback) and input your destination in the google search bar. Now you are 
+      ready to go to your destination.
