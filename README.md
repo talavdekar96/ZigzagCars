@@ -19,3 +19,6 @@ anddriver is selected you will get a navigation screen.
       you will have a button to "call a ride" which can be pressed to call a driver. Above that button you will have a selection of vehicles which you can 
       select, make sure to select your preffered vehicle type (Default is a small hatchback) and input your destination in the google search bar. Now you are 
       ready to go to your destination.
+
+5. When you click on the history button you can see your previous trips as well in a list and when you click on the any specific ride you will be taken to a
+      well detailed page where you can see your ride in details.
