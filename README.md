@@ -22,3 +22,5 @@ anddriver is selected you will get a navigation screen.
 
 5. When you click on the history button you can see your previous trips as well in a list and when you click on the any specific ride you will be taken to a
       well detailed page where you can see your ride in details.
+
+6. 
